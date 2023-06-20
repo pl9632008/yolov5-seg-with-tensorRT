@@ -340,7 +340,7 @@ int main(int argc,char ** argv){
         Mat img = imread(argv[1]);
 
         int padw,padh;
-        Mat pr_img = preprocess_img(img,INPUT_H,INPUT_W,padw,padh);
+        Mat pr_img = preprocess_img(img,INPUT_W,INPUT_H,padw,padh);
 
         // cv::imwrite("./test_primg.jpg",pr_img);
 
